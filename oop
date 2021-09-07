@@ -1,0 +1,25 @@
+Завдання 2
+byte c = 1; 
+                short p = 5; 
+                int e = 4; 
+                long r = 16; 
+                float b = 5.7f; 
+                double x = 4.2; 
+                char u = 't'; 
+                boolean m = true;
+Завдання 4. 
+ 
+import java.util.Arrays; 
+public class Main 
+{ 
+  public static void main(String[] args) { 
+      int[] myArray = {3, 5, 6, 1, -2, 10}; 
+    System.out.println(MinArrayValue(myArray)); 
+  } 
+   
+  public static int MinArrayValue(int[] array1) 
+    { 
+        Arrays.sort(array1); 
+        return array1[0]; 
+    } 
+}
